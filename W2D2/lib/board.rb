@@ -29,8 +29,13 @@ class Board
   end
 
   def make_move(start_pos, current_player_name)
-    start_cup = self.cups[start_pos]
-    cups[start_pos..start_pos+start_cup.length]
+    # start_cup = self.cups[start_pos]
+    # i = 0
+    # cups.each do |cup|
+    #   break if i == start_cup.length
+    #   if 
+    # end
+
   end
 
   def next_turn(ending_cup_idx)
